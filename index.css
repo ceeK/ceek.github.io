@@ -306,9 +306,9 @@ footer {
 /* Small devices (phones, small tablets) */
 @media (max-width:780px) {
 	.container {
-    min-width: 780px;
-    margin: auto;
-    position: relative;
+	    min-width: 780px;
+	    margin: auto;
+	    position: relative;
     }
 }
 
@@ -372,18 +372,25 @@ footer {
 	}
 }
 
-@media (min-width: 76px) and (max-width: 886px) {
+@media (min-width: 76px) and (max-width: 760px) {
 	#app_1 {
 		height: 495px;
 	}
 	#cv-box {
 		top: 132px;
 	}
+	#about-section {
+		width: 100%;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width:1199px) {
 	#apps {
+		width: 100%;
+	}
+
+	#about-section {
 		width: 100%;
 	}
 
