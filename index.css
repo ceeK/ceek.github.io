@@ -1,7 +1,14 @@
 /* Body */
+html, body {
+	min-height: 100vh;
+	margin: 0;
+}
+
 body {
 	font-family: AvenirNext LT Pro Regular;
 	-webkit-font-smoothing: antialiased;
+	background-color: #2C3034;
+	color: white;
 }
 
 .container {
@@ -26,10 +33,13 @@ header {
 	margin-bottom: 5px;
 }
 
+header .h1 {
+	margin-bottom: 0;
+}
+
 #social {
-	width: 100px;
-	display: inline;
-	margin-top: 40px;
+	display: block;
+	margin: 5px auto 0;
 }
 
 #social-list {
@@ -306,7 +316,6 @@ footer {
 /* Small devices (phones, small tablets) */
 @media (max-width:780px) {
 	.container {
-	    min-width: 780px;
 	    margin: auto;
 	    position: relative;
     }
@@ -368,7 +377,6 @@ footer {
 
 	.container {
 		width: 100%;
-		min-width: 768px;
 	}
 }
 
