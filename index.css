@@ -46,6 +46,7 @@ main {
 
 /* Name */
 .name {
+	margin: 0;
 	font-size: 38px;
 	font-weight: 600;
 	letter-spacing: -0.02em;
