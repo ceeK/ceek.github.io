@@ -13,6 +13,30 @@
 
 	<!-- Page CSS -->
 	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<!-- Structured data: identity + linked profiles for search engines -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Person",
+		"name": "Chris Howell",
+		"jobTitle": "Staff Software Engineer",
+		"worksFor": [
+			{ "@type": "Organization", "name": "DoorDash" },
+			{ "@type": "Organization", "name": "Deliveroo" }
+		],
+		"alumniOf": {
+			"@type": "EducationalOrganization",
+			"name": "University of Warwick"
+		},
+		"url": "https://www.chrishowell.me/",
+		"email": "chris.kevin.howell@gmail.com",
+		"sameAs": [
+			"https://uk.linkedin.com/pub/christopher-howell/56/5b5/66b/",
+			"https://www.github.com/ceek"
+		]
+	}
+	</script>
 </head>
 
 <body>
