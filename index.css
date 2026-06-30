@@ -99,9 +99,11 @@ main {
 	transition: background .15s ease, border-color .15s ease;
 }
 
-.link:hover {
-	background: var(--hover-bg);
-	border-color: var(--accent);
+@media (hover: hover) {
+	.link:hover {
+		background: var(--hover-bg);
+		border-color: var(--accent);
+	}
 }
 
 .mark {
